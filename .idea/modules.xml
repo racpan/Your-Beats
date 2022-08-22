@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Your_Beats.iml" filepath="$PROJECT_DIR$/.idea/modules/Your_Beats.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Your_Beats.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Your_Beats.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unity-ads/Your_Beats.unity-ads.iml" filepath="$PROJECT_DIR$/.idea/modules/unity-ads/Your_Beats.unity-ads.iml" />
+    </modules>
+  </component>
+</project>
