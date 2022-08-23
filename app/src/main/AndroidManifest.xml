@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.racpanapps.yourbeats">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        <activity
+            android:name=".mainMenu.MainMenu"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gameFiles.SongList"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".gameFiles.GameLevel"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".gameFiles.Game"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".gameFiles.GameOver"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".mainMenu.MusicPlayer"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".musicPlayer.CreateEditPlaylist"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".mainMenu.HowToPlay"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".mainMenu.HighScore"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".mainMenu.ContactUs"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".mainMenu.Settings"
+            android:screenOrientation="sensorPortrait" />
+        <receiver android:name=".notificationControls.NotificationPrevious" />
+        <receiver android:name=".notificationControls.NotificationPause" />
+        <receiver android:name=".notificationControls.NotificationNext" />
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+</manifest>
